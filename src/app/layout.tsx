@@ -1,11 +1,20 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
+// import localFont from "next/font/local";
+// import "./globals.css";
+// const mooxyFont = localFont({
+//   src: "../../public/fonts/mooxy/mooxy.ttf",
+//   variable: "--font-mooxy",
+// });
+// import { Inter } from "next/font/google";
+// const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
+import { Montserrat } from "next/font/google";
+const montserrat = Montserrat({
+  subsets: ["latin"],
+  variable: "--font-montserrat",
+});
 import "./globals.css";
 
-const mooxyFont = localFont({
-  src: "../../public/fonts/mooxy/mooxy.ttf",
-  variable: "--font-mooxy",
-});
+import { Toaster } from "@/components/ui/sonner";
 
 export const metadata: Metadata = {
   title: "Prepwise",
@@ -19,7 +28,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${mooxyFont.variable} antialiased`}>{children}</body>
+      <body className={`${montserrat.variable} antialiased`}>
+        {children}
+        <Toaster />
+      </body>
     </html>
   );
 }
