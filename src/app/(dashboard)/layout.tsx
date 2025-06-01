@@ -1,17 +1,16 @@
-import { DashboardHeader } from "@/components/dashboard/DashboardHeader";
+import { DashboardSidebar } from "@/components/shared/DashboardSidebar";
 
 export default function DashboardLayout({
-    children,
-  }: Readonly<{
-    children: React.ReactNode;
-  }>) {
-    return (
-      <div className="min-h-screen">
-        <DashboardHeader />
-        <main className="container mx-auto px-4 py-8">
-          {children}
-        </main>
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <main className="min-h-screen w-full flex">
+      <div className="w-auto">
+        <DashboardSidebar />
       </div>
-    );
-  }
-  
+      <div className="flex-1">{children}</div>
+    </main>
+  );
+}

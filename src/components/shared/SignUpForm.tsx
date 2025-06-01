@@ -124,9 +124,9 @@ export function SignUpForm() {
   }
 
   return (
-    <div className="flex flex-col lg:flex-row items-center h-screen">
-      <div className="text-center lg:w-1/2 bg-green-600 h-full"></div>
-      <div className="w-full lg:w-1/2 lg:p-24">
+    <div className="flex flex-col lg:flex-row items-center lg:h-screen">
+      <div className="text-center w-full lg:w-1/2 bg-green-600 h-[200px] lg:h-screen"></div>
+      <div className="w-full lg:w-1/2 lg:p-24 px-4 sm:px-6 mt-10 lg:mt-0 mb-10 lg:mb-0">
         <Form {...form}>
           <form
             onSubmit={form.handleSubmit(onSubmit)}
