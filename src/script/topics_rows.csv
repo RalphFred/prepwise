@@ -1,0 +1,72 @@
+id,subject_id,title,description
+0264d9c3-a27e-456f-bc49-cc13e791f31d,ca22a4f6-3b8e-479a-be02-23e45b9bd5de,Ecology,Interactions between organisms and their environments.
+03c2ef23-ff47-4dd4-af77-f0cdc29766ac,ca22a4f6-3b8e-479a-be02-23e45b9bd5de,Movement,Types and mechanisms of movement in plants and animals.
+06e1e686-8189-4c6f-8887-519191ff2ff7,508d576a-1782-49ff-8482-bf911d3bfae9,Heat Energy,"Heat transfer methods, temperature scales, and thermal expansion"
+0704fd7c-015f-475a-939c-27a03ea51fe1,453a1e01-ea40-4ffa-9f39-cd0b41e5aab2,Stoichiometry,"Chemical equations, mole concept, and calculations"
+0899b141-4e49-4a1d-86a3-ba6db3389834,453a1e01-ea40-4ffa-9f39-cd0b41e5aab2,Nuclear chemistry,"Radioactivity, isotopes, and nuclear reactions"
+09536328-0437-4fcc-bb55-934a752c685d,ca22a4f6-3b8e-479a-be02-23e45b9bd5de,Heredity and variation,"Genetic inheritance, Mendelian laws, and causes of variation among organisms."
+09f55cbc-b80e-4f5b-9933-5c2555abc96c,9c5a0873-f072-4dcf-a167-cd76f54f31a6,Number and Numeration,"Whole numbers, number bases, and place value concepts"
+0a32d10f-1634-4dab-a8ba-0d74696fc9fa,ca22a4f6-3b8e-479a-be02-23e45b9bd5de,Circulatory System,"Heart, blood, and vessels involved in the transport of materials."
+0e4d5dc2-49d8-4c97-b6d4-ac0557c13e2b,8ec8bea6-f9ad-48fa-abf6-23c4033e0142,Comprehension,Reading passages with questions to test understanding and interpretation
+130136c4-dce9-4874-9a81-ddf09abfb3b2,ca22a4f6-3b8e-479a-be02-23e45b9bd5de,Endocrine System,Hormones and glands that regulate body functions.
+148a6ed7-0839-43c0-8967-a5006ddcbb85,453a1e01-ea40-4ffa-9f39-cd0b41e5aab2,Introduction to chemistry,"Basic concepts including atomicity, matter, and common laboratory practices"
+162abc7d-6a91-4108-a5b7-e06b83597696,ca22a4f6-3b8e-479a-be02-23e45b9bd5de,Sense Organs,"Eyes, ears, skin, tongue, and nose as receptors for stimuli."
+191f3382-9bd7-46cf-abb5-20fc0eaecd89,ca22a4f6-3b8e-479a-be02-23e45b9bd5de,Support and Movement,Mechanisms and structures for stability and locomotion.
+1965c50c-b946-4f2d-9c18-5910e07f9785,508d576a-1782-49ff-8482-bf911d3bfae9,Modern Physics,"Photoelectric effect, radioactivity, nuclear reactions, and quantum theory"
+1f5c1016-43f0-4c8a-bfaa-368b2a8d2787,ca22a4f6-3b8e-479a-be02-23e45b9bd5de,Excretion,Removal of metabolic waste products in plants and animals.
+26b35949-1bce-40f9-a75b-7040fb41b078,508d576a-1782-49ff-8482-bf911d3bfae9,Electricity,"Electric circuits, current, voltage, resistance, and Ohm’s Law"
+26caf51f-bc25-43f5-bcfa-a8dcbd4a7408,453a1e01-ea40-4ffa-9f39-cd0b41e5aab2,Industrial chemistry,Chemical industries and their economic importance
+2a0ebdbd-31cf-4856-ab60-052fb4fa5b15,508d576a-1782-49ff-8482-bf911d3bfae9,Motion,"Study of movement, types of motion, and related physical quantities"
+2f81e49b-84f6-483f-bef9-d0115906c808,8ec8bea6-f9ad-48fa-abf6-23c4033e0142,Lexis and Structure,"Vocabulary, grammar, sentence construction, and idiomatic expressions"
+3365adc8-e8ca-4dc2-b92d-112cc8d872d3,ca22a4f6-3b8e-479a-be02-23e45b9bd5de,Evolution,The process of change in living organisms over generations through natural selection.
+39ee21fe-4ed1-4fe9-a886-31693912c429,9c5a0873-f072-4dcf-a167-cd76f54f31a6,Variation and Word Problems,"Direct, inverse, and joint variation in context"
+3f8da4bf-7453-4cf8-98a7-06887c725cf4,508d576a-1782-49ff-8482-bf911d3bfae9,Magnetism and Electromagnetism,"Magnetic fields, electromagnets, and electromagnetic induction"
+3fbcaf37-8933-4bba-b2eb-ed8e4391fe8f,9c5a0873-f072-4dcf-a167-cd76f54f31a6,Trigonometry,"Ratios, identities, and applications in right-angled triangles"
+48ba5c04-c80b-4272-8006-f362d0af7db0,ca22a4f6-3b8e-479a-be02-23e45b9bd5de,Nutrition,"Types of nutrition, food substances, and the human digestive system."
+4a176ef1-769c-4aa0-9ebe-a08a63e794e4,ca22a4f6-3b8e-479a-be02-23e45b9bd5de,Excretory System,Organs involved in filtering and eliminating body wastes.
+4ae46b5a-7be3-45f5-887d-09c80d39e721,9c5a0873-f072-4dcf-a167-cd76f54f31a6,Probability,Basic probability concepts and applications
+4ec650d6-7d31-4603-abd7-53ca1bd949cb,ca22a4f6-3b8e-479a-be02-23e45b9bd5de,Digestive System,Organs and processes involved in breaking down food and nutrient absorption.
+4fcc0ae3-e94e-4db8-b320-9c6abe35c6cc,ca22a4f6-3b8e-479a-be02-23e45b9bd5de,Homeostasis,Regulation of internal conditions for stable biological function.
+5ad0d17a-08d2-4230-b1b6-8f6ef19d01c1,453a1e01-ea40-4ffa-9f39-cd0b41e5aab2,Chemical kinetics,Rates of reactions and factors affecting them
+5b1b6bdb-64f0-4cf2-b91a-0977d690ebb6,9c5a0873-f072-4dcf-a167-cd76f54f31a6,Geometry,"Angles, polygons, symmetry, constructions, and coordinate geometry"
+5e0c103a-9716-43b6-bfa4-7c58dc77b0d6,9c5a0873-f072-4dcf-a167-cd76f54f31a6,Commercial Arithmetic,"Profit, loss, discount, interest, and percentage applications"
+623804c9-6419-4cfc-b890-f7a908600fcd,508d576a-1782-49ff-8482-bf911d3bfae9,Properties of Matter,"Elasticity, viscosity, surface tension, and mechanical properties"
+62740b22-9d69-4110-bdd7-018c84d5a0c0,453a1e01-ea40-4ffa-9f39-cd0b41e5aab2,Equilibrium,"Dynamic equilibrium, Le Chatelier’s principle"
+65032b24-3aa0-403c-8e1a-29aa5c7f5b09,9c5a0873-f072-4dcf-a167-cd76f54f31a6,Mensuration,"Area, volume, and perimeter of 2D and 3D shapes"
+699eec1f-925d-4035-9e12-f4d42562d8b9,453a1e01-ea40-4ffa-9f39-cd0b41e5aab2,Atomic structure,"Subatomic particles, electron configuration, and atomic models"
+73f36362-9be4-499d-8d46-11e389cc3f1e,ca22a4f6-3b8e-479a-be02-23e45b9bd5de,Response to Stimuli,Irritability and the ability of organisms to respond to environmental changes.
+7499044d-b466-47f1-815e-92109eb8c74f,9c5a0873-f072-4dcf-a167-cd76f54f31a6,Introductory Calculus,Simple differentiation and integration for motion and area problems
+74e71ac8-7c92-4baa-b501-85e078113686,ca22a4f6-3b8e-479a-be02-23e45b9bd5de,Transport,"Movement of materials within plants and animals, including blood and vascular tissues."
+754b5512-8ed7-4f92-adbc-7b3b23c0ac68,508d576a-1782-49ff-8482-bf911d3bfae9,Electronics,"Semiconductors, diodes, transistors, and logic gates"
+763315e8-49c3-44eb-ba94-4dbc9c67d29c,453a1e01-ea40-4ffa-9f39-cd0b41e5aab2,Environmental chemistry,"Pollution, water treatment, and sustainability"
+7aa0c4a4-e7ae-47dd-bbc3-605c509fca70,508d576a-1782-49ff-8482-bf911d3bfae9,Thermodynamics,"Laws of thermodynamics, entropy, and heat engines"
+7d731468-c163-4573-8538-e976e67e2594,ca22a4f6-3b8e-479a-be02-23e45b9bd5de,Growth,Stages and conditions necessary for the growth of living organisms.
+7e8fff0d-a3bd-41ba-bd94-074577108894,453a1e01-ea40-4ffa-9f39-cd0b41e5aab2,Electrolysis,"Electrolytic cells, Faraday’s laws"
+831839ee-ff99-4e32-b7c6-b4d357515cc0,8ec8bea6-f9ad-48fa-abf6-23c4033e0142,Summary,Techniques for identifying key points and summarizing information
+909d1b1c-5b9f-43a6-911e-38aece06a32f,508d576a-1782-49ff-8482-bf911d3bfae9,"Work, Energy and Power","Understanding work, energy forms, power, and conservation laws"
+91986af8-ebf6-47f7-955d-f0ddc13584db,508d576a-1782-49ff-8482-bf911d3bfae9,Waves,"Types of waves, wave properties, and sound/light behavior"
+963eb07f-a37c-4c29-9cc0-922cccea75e6,8ec8bea6-f9ad-48fa-abf6-23c4033e0142,Essay Writing,"Principles of effective essay composition, structure, and organization"
+96ca4589-3b59-4d38-908d-e5fcf6cecb23,9c5a0873-f072-4dcf-a167-cd76f54f31a6,Algebra,"Expressions, equations, inequalities, and word problems involving variables"
+973b9769-c6ae-469a-a705-72fdcb693e8d,508d576a-1782-49ff-8482-bf911d3bfae9,Fluid Mechanics,"Buoyancy, pressure in liquids, and flow of fluids"
+9809bcf3-4675-41af-81e4-d5f19fd18c94,ca22a4f6-3b8e-479a-be02-23e45b9bd5de,Conservation,Protection and sustainable use of natural resources and biodiversity.
+9bc48149-97d2-4312-9ef4-6576fac12730,9c5a0873-f072-4dcf-a167-cd76f54f31a6,Functions and Graphs,"Linear and quadratic functions, graphs, and transformations"
+a0ed9540-1bfb-4abd-9b02-f9323fbff1de,453a1e01-ea40-4ffa-9f39-cd0b41e5aab2,Periodic table,"Trends, classification, and periodicity of elements"
+a899be0e-4968-4405-9a91-5953bf8d97bd,ca22a4f6-3b8e-479a-be02-23e45b9bd5de,Cells,"Structure and function of living cells, including organelles and cell theory."
+c32ddd52-9ee7-4f02-833b-4707cb871681,ca22a4f6-3b8e-479a-be02-23e45b9bd5de,Respiration,Cellular respiration and energy production in living organisms.
+c5100f47-ba93-42ca-ae34-2e7829a6d7db,508d576a-1782-49ff-8482-bf911d3bfae9,Optics,"Reflection, refraction, lenses, mirrors, and optical instruments"
+c57305a3-a7d3-46eb-b2ed-19e0845cb490,ca22a4f6-3b8e-479a-be02-23e45b9bd5de,Skeletal System,"Bones, joints, and the structural support of the body."
+cca52be3-f300-406a-a636-83620ca12bfb,453a1e01-ea40-4ffa-9f39-cd0b41e5aab2,Energetics,"Exothermic and endothermic reactions, enthalpy changes"
+cd4909ff-444c-44b0-b480-fdc0839d016e,ca22a4f6-3b8e-479a-be02-23e45b9bd5de,Reproduction,Sexual and asexual reproduction in plants and animals.
+d46b8733-de51-439c-8954-0024b46d6b80,ca22a4f6-3b8e-479a-be02-23e45b9bd5de,Microorganisms,"Types, roles, and effects of microorganisms on humans and the environment."
+d524f84c-7099-4718-aa69-cce03e95ac4c,453a1e01-ea40-4ffa-9f39-cd0b41e5aab2,Organic chemistry,"Hydrocarbons, alcohols, acids, and other organic groups"
+d8603a64-48f6-45bb-815f-eaac5b5c584c,508d576a-1782-49ff-8482-bf911d3bfae9,Simple Machines,"Levers, pulleys, inclined planes, and mechanical advantage"
+d8ae7718-e88d-4782-8eb8-9a2bcdd3d9eb,453a1e01-ea40-4ffa-9f39-cd0b41e5aab2,Chemical bonding,"Ionic, covalent, and metallic bonds and their characteristics"
+da6dc4f3-dc0d-458a-9065-2ce0acd5b9e8,453a1e01-ea40-4ffa-9f39-cd0b41e5aab2,Gas laws,"Boyle’s, Charles’s, and the ideal gas law"
+ddd32db9-3b97-476a-a22a-083d9b7ea53e,508d576a-1782-49ff-8482-bf911d3bfae9,Introduction,"Basic overview of physics concepts, history, and units of measurement"
+de65d3b1-8749-4632-aee3-cb1ee85d9bd8,453a1e01-ea40-4ffa-9f39-cd0b41e5aab2,"Acids, bases and salts","Properties, reactions, pH, indicators, and neutralization"
+dea033d1-5307-416e-83ec-992925d93f81,ca22a4f6-3b8e-479a-be02-23e45b9bd5de,Coordination,Integration of body functions through the nervous and endocrine systems.
+e0302762-be1d-48bc-9313-a6f200d8197b,508d576a-1782-49ff-8482-bf911d3bfae9,Speed and velocity,"Concepts of speed, velocity, acceleration, and graphical analysis"
+e716c63e-c72e-4787-a0c7-fb3939ee7776,9c5a0873-f072-4dcf-a167-cd76f54f31a6,Sets and Logic,"Set notation, Venn diagrams, and logical reasoning"
+ea2298eb-660c-4d5b-8b9e-a8e4d409d8fd,ca22a4f6-3b8e-479a-be02-23e45b9bd5de,Nervous System,"Structure and function of the brain, spinal cord, and nerves."
+f49de269-535e-4cf5-955c-250ba328f3d7,9c5a0873-f072-4dcf-a167-cd76f54f31a6,Statistics,"Data presentation, mean, median, mode, range, and standard deviation"
+fc9c5e97-582c-4cc0-adfe-871f3a53a536,453a1e01-ea40-4ffa-9f39-cd0b41e5aab2,States of matter,"Properties and behavior of solids, liquids, and gases"
