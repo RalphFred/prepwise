@@ -118,7 +118,7 @@ export function DashboardSidebar() {
       <div className="flex-1 p-4">
         <nav className="space-y-2">
           {mainRoutes.map((route) => {
-            const isActive = pathname === route.href;
+            const isActive = pathname.startsWith(route.href);
             return (
               <Link
                 key={route.href}
@@ -147,7 +147,7 @@ export function DashboardSidebar() {
         )}
         <nav className="space-y-2">
           {bottomRoutes.map((route) => {
-            const isActive = pathname === route.href;
+            const isActive = pathname.startsWith(route.href);
             return (
               <Link
                 key={route.href}
