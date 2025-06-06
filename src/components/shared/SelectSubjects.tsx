@@ -8,6 +8,7 @@ import { Subject } from "@/lib/actions/subjects.actions";
 import { useRouter } from "next/navigation";
 import { useQuery } from "@tanstack/react-query";
 import { createClient } from "@/utils/supabase/client"; // or your client path
+import { useExamStore } from "@/store/exam-store";
 
 async function fetchSubjects() {
   const supabase = createClient();
@@ -19,7 +20,8 @@ async function fetchSubjects() {
 export function SelectSubject() {
   const router = useRouter();
   const [searchQuery, setSearchQuery] = useState("");
-  const [selectedSubjects, setSelectedSubjects] = useState<string[]>([]);
+  const selectedSubjects = useExamStore((s) => s.selectedSubjects);
+  const setSelectedSubjects = useExamStore((s) => s.setSelectedSubjects);
 
   const { data: subjects, isLoading, error } = useQuery({
     queryKey: ["subjects"],
@@ -31,8 +33,11 @@ export function SelectSubject() {
       const english = subjects.find(
         (subject) => subject.name.toLowerCase().includes("english")
       );
-      if (english) setSelectedSubjects([english.id]);
+      if (english && !selectedSubjects.includes(english.id)) {
+        setSelectedSubjects([english.id]);
+      }
     }
+    // eslint-disable-next-line
   }, [subjects]);
 
   if (isLoading) return <div>Loading...</div>;
@@ -52,19 +57,24 @@ export function SelectSubject() {
   });
 
   const toggleSubject = (subjectId: string) => {
-    setSelectedSubjects((prev) =>
-      prev.includes(subjectId)
-        ? prev.filter((id) => id !== subjectId)
-        : [...prev, subjectId]
-    );
+    if (subjectId === englishId) return;
+    if (selectedSubjects.includes(subjectId)) {
+      setSelectedSubjects(selectedSubjects.filter((id) => id !== subjectId));
+    } else {
+      setSelectedSubjects([...selectedSubjects, subjectId]);
+    }
   };
 
   const handleContinue = () => {
-    // Here you can add logic to save the selected subjects
-    // For now, we'll just log them
     console.log("Selected subject IDs:", selectedSubjects);
-    // You can add navigation or form submission logic here
+    setSelectedSubjects(selectedSubjects);
+    router.push("/exams/overview");
   };
+
+  const english = subjects?.find(
+    (subject) => subject.name.toLowerCase().includes("english")
+  );
+  const englishId = english?.id;
 
   return (
     <div className="px-6 py-4 space-y-8 min-h-screen flex flex-col w-full">
@@ -92,12 +102,14 @@ export function SelectSubject() {
             <button
               key={subject.id}
               onClick={() => toggleSubject(subject.id)}
+              disabled={subject.id === englishId}
               className={cn(
                 "px-6 py-3 rounded-full text-sm font-medium transition-all duration-200",
                 "border-2",
                 selectedSubjects.includes(subject.id)
                   ? "bg-primary-500 text-white border-primary-500 hover:bg-primary-600"
-                  : "bg-white hover:bg-primary-50"
+                  : "bg-white hover:bg-primary-50",
+                subject.id === englishId && "opacity-60 cursor-not-allowed"
               )}
             >
               {subject.name}
@@ -106,17 +118,18 @@ export function SelectSubject() {
         </div>
       </div>
 
-      {selectedSubjects.length > 0 && (
-        <div className="flex justify-center items-center py-6">
-          <button
-            className="bg-primary-500 text-white px-8 py-4 rounded-full font-medium hover:bg-primary-600 transition-colors flex items-center gap-2"
-            onClick={handleContinue}
-          >
-            Continue with {selectedSubjects.length} subject{selectedSubjects.length > 1 ? "s" : ""}
-            <ArrowRightIcon size={16} />
-          </button>
-        </div>
-      )}
+      <div className="flex justify-center items-center py-6">
+        <button
+          className="bg-primary-500 cursor-pointer text-white px-8 py-4 rounded-full font-medium transition-colors flex items-center gap-2 disabled:bg-primary-200 disabled:cursor-not-allowed"
+          onClick={handleContinue}
+          disabled={selectedSubjects.length !== 4}
+        >
+          {selectedSubjects.length !== 4
+            ? "Select exactly 4 subjects to continue"
+            : `Continue with 4 subjects`}
+          <ArrowRightIcon size={16} />
+        </button>
+      </div>
     </div>
   );
 } 
