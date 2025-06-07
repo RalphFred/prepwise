@@ -16,6 +16,8 @@ export const config = {
     '/analytics',
     '/analytics/:path*',
     '/settings',
-    '/settings/:path*'
+    '/settings/:path*',
+    '/exams/take',
+    '/exams/take/:path*'
   ],
 }

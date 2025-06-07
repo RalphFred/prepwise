@@ -69,7 +69,7 @@ export default function ExamOverview() {
         </button>
         <button
           className="bg-primary-500 text-white px-6 py-2 rounded-full font-medium hover:bg-primary-600  cursor-pointer transition-colors flex items-center gap-2"
-          onClick={() => router.push(`/exams/take?subjects=${subjectIds.join(",")}`)}
+          onClick={() => router.push("/exams/take")}
           type="button"
         >
           Start Exam
